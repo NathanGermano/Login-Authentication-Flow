@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <main class="main">
+
+        <section class="formWrapp">
+            <header class="header">
+                <h1 class="title">Login</h1>
+                <img src="../css/images/logo.png" alt="logo" class="logo">
+            </header>
+            <form id="loginForm">
+                <div class="inputsWrapp"> 
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="inputs" name="email" id="email">
+                </div>
+
+                <div class="inputsWrapp">
+                    <label for="password">Password:</label>
+                    <input type="password" class="inputs" name="password" id="password">
+                </div>
+                <button class="button" type="submit">Access</button>
+            </form>
+            <div class="errorWrapp">
+                <p class="errorMessage" id="error"> </p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="../JS/index.js" defer></script>
+</html>
